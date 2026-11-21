@@ -196,3 +196,5 @@ public class DwizVratSharma {
 *"First, solve the problem. Then, write the code." — John Johnson*
 
 </div>
+
+<!-- visitor badge already in header -->
