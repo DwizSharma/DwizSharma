@@ -150,7 +150,7 @@ public class DwizVratSharma {
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DwizSharma&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&count_private=true&include_all_commits=true&rank_icon=github" width="49%"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=DwizSharma&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&count_private=true&rank_icon=github" width="49%"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DwizSharma&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&langs_count=8" width="40%"/>
 </div>
 
