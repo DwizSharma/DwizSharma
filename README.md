@@ -71,7 +71,7 @@ public class DwizVratSharma {
 &nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-DwizSharma-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DwizSharma)
 &nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/DwizSharma)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dwiz-vrat-sharma-345761369/)
 
 </div>
 
