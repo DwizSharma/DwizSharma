@@ -24,7 +24,7 @@
 
 ## ⚡ About Me
 
-<img align="right" alt="Ocean 3D Globe" width="340" src="https://raw.githubusercontent.com/DwizSharma/Ocean-temperature-model/main/public/earth-show.png"/>
+<img align="right" alt="OceanEmbed — animated 3D globe with depth profile" width="360" src="https://raw.githubusercontent.com/DwizSharma/DwizSharma/main/ocean-panel.svg"/>
 
 ```python
 class DwizVratSharma:
