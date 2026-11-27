@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="340" viewBox="0 0 380 340">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0a2a3a"/>
+      <stop offset="100%" stop-color="#020d18"/>
+    </radialGradient>
+    <radialGradient id="globeGrad" cx="38%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#1a6b7a"/>
+      <stop offset="45%" stop-color="#0d3d52"/>
+      <stop offset="100%" stop-color="#061520"/>
+    </radialGradient>
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#73e2cd" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#73e2cd" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pinGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#73e2cd" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#73e2cd" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="circleClip">
+      <circle cx="190" cy="160" r="118"/>
+    </clipPath>
+    <filter id="blur4">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="blur2">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="380" height="340" fill="url(#bgGrad)" rx="18"/>
+
+  <!-- Outer glow ring -->
+  <circle cx="190" cy="160" r="135" fill="url(#glowGrad)" filter="url(#blur4)"/>
+
+  <!-- Globe base -->
+  <circle cx="190" cy="160" r="118" fill="url(#globeGrad)"/>
+
+  <!-- Ocean latitude lines (clipped) -->
+  <g clip-path="url(#circleClip)" opacity="0.22" stroke="#73e2cd" stroke-width="0.6" fill="none">
+    <ellipse cx="190" cy="100" rx="118" ry="22"/>
+    <ellipse cx="190" cy="130" rx="118" ry="32"/>
+    <ellipse cx="190" cy="160" rx="118" ry="36"/>
+    <ellipse cx="190" cy="190" rx="118" ry="32"/>
+    <ellipse cx="190" cy="220" rx="118" ry="22"/>
+  </g>
+
+  <!-- Ocean longitude lines (clipped) -->
+  <g clip-path="url(#circleClip)" opacity="0.16" stroke="#73e2cd" stroke-width="0.6" fill="none">
+    <line x1="190" y1="42" x2="190" y2="278"/>
+    <ellipse cx="190" cy="160" rx="40" ry="118"/>
+    <ellipse cx="190" cy="160" rx="80" ry="118"/>
+    <ellipse cx="190" cy="160" rx="110" ry="118"/>
+  </g>
+
+  <!-- Continent-like landmasses (decorative blobs, clipped) -->
+  <g clip-path="url(#circleClip)" opacity="0.55">
+    <!-- Asia-Pacific blob -->
+    <path d="M235,95 C255,88 278,98 282,118 C290,138 275,158 258,162 C242,166 228,152 220,138 C210,122 215,102 235,95Z" fill="#1a4a2e" opacity="0.7"/>
+    <!-- Americas blob -->
+    <path d="M128,118 C142,108 158,114 162,132 C168,150 155,170 140,175 C126,180 112,165 108,148 C104,130 114,128 128,118Z" fill="#1a4a2e" opacity="0.6"/>
+    <!-- Europe-Africa blob -->
+    <path d="M182,138 C192,130 205,135 208,148 C212,162 204,178 193,182 C182,186 172,175 170,162 C168,148 172,146 182,138Z" fill="#1a4a2e" opacity="0.5"/>
+    <!-- Antarctica hint -->
+    <ellipse cx="190" cy="265" rx="52" ry="10" fill="#2a6a4a" opacity="0.3"/>
+  </g>
+
+  <!-- Globe shine -->
+  <ellipse cx="162" cy="118" rx="38" ry="26" fill="white" opacity="0.055" filter="url(#blur2)"/>
+
+  <!-- Animated orbit ring 1 -->
+  <ellipse cx="190" cy="160" rx="145" ry="38" fill="none" stroke="#73e2cd" stroke-width="0.8" opacity="0.25" stroke-dasharray="6 5">
+    <animateTransform attributeName="transform" type="rotate" from="0 190 160" to="360 190 160" dur="18s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Animated orbit ring 2 -->
+  <ellipse cx="190" cy="160" rx="38" ry="145" fill="none" stroke="#b3a2ff" stroke-width="0.6" opacity="0.18" stroke-dasharray="4 7">
+    <animateTransform attributeName="transform" type="rotate" from="0 190 160" to="-360 190 160" dur="28s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Pulsing location pin A -->
+  <g filter="url(#glow)">
+    <circle cx="248" cy="128" r="4" fill="#73e2cd">
+      <animate attributeName="r" values="4;6.5;4" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.4;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="248" cy="128" r="10" fill="#73e2cd" opacity="0.15">
+      <animate attributeName="r" values="8;15;8" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.15;0;0.15" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Pulsing location pin B (offset timing) -->
+  <g filter="url(#glow)">
+    <circle cx="148" cy="150" r="3.5" fill="#f6b364">
+      <animate attributeName="r" values="3.5;5.5;3.5" dur="3.1s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.4;1" dur="3.1s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="148" cy="150" r="9" fill="#f6b364" opacity="0.12">
+      <animate attributeName="r" values="7;13;7" dur="3.1s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.12;0;0.12" dur="3.1s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Pin label A -->
+  <rect x="254" y="118" width="68" height="16" rx="8" fill="#0a1e28" stroke="#73e2cd" stroke-width="0.7" opacity="0.9"/>
+  <text x="288" y="129.5" text-anchor="middle" fill="#73e2cd" font-family="monospace" font-size="7" letter-spacing="0.5">38°N  24°E</text>
+
+  <!-- Pin label B -->
+  <rect x="97" y="140" width="44" height="16" rx="8" fill="#0a1e28" stroke="#f6b364" stroke-width="0.7" opacity="0.9"/>
+  <text x="119" y="151.5" text-anchor="middle" fill="#f6b364" font-family="monospace" font-size="7" letter-spacing="0.3">23 DEPTHS</text>
+
+  <!-- Depth profile panel (bottom right) -->
+  <rect x="268" y="198" width="90" height="78" rx="10" fill="#071318" stroke="#73e2cd" stroke-width="0.8" opacity="0.92"/>
+  <text x="313" y="212" text-anchor="middle" fill="#73e2cd" font-family="monospace" font-size="6.5" letter-spacing="0.8" opacity="0.8">DEPTH PROFILE</text>
+  <!-- Animated depth bars -->
+  <g transform="translate(276, 220)">
+    <rect x="0"  y="0" width="6" height="46" rx="2" fill="#0d2535" opacity="0.8"/>
+    <rect x="9"  y="0" width="6" height="46" rx="2" fill="#0d2535" opacity="0.8"/>
+    <rect x="18" y="0" width="6" height="46" rx="2" fill="#0d2535" opacity="0.8"/>
+    <rect x="27" y="0" width="6" height="46" rx="2" fill="#0d2535" opacity="0.8"/>
+    <rect x="36" y="0" width="6" height="46" rx="2" fill="#0d2535" opacity="0.8"/>
+    <rect x="45" y="0" width="6" height="46" rx="2" fill="#0d2535" opacity="0.8"/>
+    <rect x="54" y="0" width="6" height="46" rx="2" fill="#0d2535" opacity="0.8"/>
+    <rect x="63" y="0" width="6" height="46" rx="2" fill="#0d2535" opacity="0.8"/>
+    <!-- Animated fill bars -->
+    <rect x="0"  rx="2" width="6" fill="#73e2cd">
+      <animate attributeName="height" values="38;42;35;38" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="8;4;11;8" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="9"  rx="2" width="6" fill="#73e2cd">
+      <animate attributeName="height" values="30;34;28;30" dur="3.4s" begin="0.2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="16;12;18;16" dur="3.4s" begin="0.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="18" rx="2" width="6" fill="#73e2cd">
+      <animate attributeName="height" values="44;40;46;44" dur="2.8s" begin="0.4s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="2;6;0;2" dur="2.8s" begin="0.4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="27" rx="2" width="6" fill="#73e2cd">
+      <animate attributeName="height" values="22;26;20;22" dur="3.6s" begin="0.6s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="24;20;26;24" dur="3.6s" begin="0.6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="36" rx="2" width="6" fill="#b3a2ff">
+      <animate attributeName="height" values="36;32;39;36" dur="3.2s" begin="0.8s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="10;14;7;10" dur="3.2s" begin="0.8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="45" rx="2" width="6" fill="#b3a2ff">
+      <animate attributeName="height" values="28;32;25;28" dur="2.6s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="18;14;21;18" dur="2.6s" begin="1s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="54" rx="2" width="6" fill="#73e2cd">
+      <animate attributeName="height" values="40;36;43;40" dur="3.8s" begin="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="6;10;3;6" dur="3.8s" begin="1.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="63" rx="2" width="6" fill="#73e2cd">
+      <animate attributeName="height" values="18;22;16;18" dur="4s" begin="1.4s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="28;24;30;28" dur="4s" begin="1.4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Chip label top -->
+  <rect x="20" y="18" width="140" height="20" rx="10" fill="#0d2535" stroke="#73e2cd" stroke-width="0.8"/>
+  <circle cx="34" cy="28" r="4" fill="#73e2cd">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="92" y="32" text-anchor="middle" fill="#73e2cd" font-family="monospace" font-size="7.5" letter-spacing="1">OCEANEMBED · LIVE</text>
+
+  <!-- Hint label bottom -->
+  <text x="190" y="307" text-anchor="middle" fill="#73e2cd" font-family="monospace" font-size="7.5" letter-spacing="1.2" opacity="0.6">DRAG TO ROTATE · SCROLL TO ORBIT</text>
+
+  <!-- Bottom wave decoration -->
+  <path d="M0,318 Q48,308 95,318 Q142,328 190,318 Q238,308 285,318 Q332,328 380,318 L380,340 L0,340Z" fill="#73e2cd" opacity="0.06">
+    <animate attributeName="d" values="M0,318 Q48,308 95,318 Q142,328 190,318 Q238,308 285,318 Q332,328 380,318 L380,340 L0,340Z;M0,322 Q48,312 95,322 Q142,332 190,322 Q238,312 285,322 Q332,332 380,322 L380,340 L0,340Z;M0,318 Q48,308 95,318 Q142,328 190,318 Q238,308 285,318 Q332,328 380,318 L380,340 L0,340Z" dur="4s" repeatCount="indefinite"/>
+  </path>
+</svg>
