@@ -1,77 +1,129 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Dwiz%20Vrat%20Sharma&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=36&desc=Full%20Stack%20Java%20Developer%20%E2%80%A2%20Builder%20%E2%80%A2%20Open%20Source%20Contributor&descAlignY=58&descSize=17"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020d18,50:0a2a3a,100:0d4f5c&height=210&section=header&text=Dwiz%20Vrat%20Sharma&fontSize=52&fontColor=e0f7f4&animation=fadeIn&fontAlignY=36&desc=Software%20Developer%20%E2%80%A2%20Full-Stack%20%E2%80%A2%20AI%20%E2%80%A2%20Always%20Building&descAlignY=58&descSize=17&descColor=73e2cd"/>
 </div>
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&random=false&width=650&lines=Hey+%F0%9F%91%8B+I'm+Dwiz+%E2%80%94+I+build+things+that+matter;Full+Stack+Java+%2B+Spring+Boot+Developer;Turning+ideas+into+production-ready+apps;10%2B+PRs+merged+%7C+Real+projects%2C+real+impact;Currently+building+%F0%9F%92%B0+Clarify+Finance+App" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1000&color=73E2CD&center=true&vCenter=true&random=false&width=700&lines=Hey+%F0%9F%91%8B+I'm+Dwiz+%E2%80%94+I+build+things+that+matter;Full-Stack+%7C+AI+Tooling+%7C+Real-Time+Systems+%7C+3D+Web;12+projects+across+Java%2C+Python%2C+React%2C+Three.js;Currently+building+%F0%9F%8C%8A+OceanEmbed+%E2%80%94+AI+%2B+3D+ocean+viz;Turning+curiosity+into+code%2C+one+commit+at+a+time" alt="Typing SVG" />
   </a>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=DwizSharma&label=Profile+Views&color=7C3AED&style=for-the-badge&logo=eye" />
+  <img src="https://komarev.com/ghpvc/?username=DwizSharma&label=Profile+Views&color=0d4f5c&style=for-the-badge&logo=eye" />
   &nbsp;
-  <img src="https://img.shields.io/github/followers/DwizSharma?label=Followers&style=for-the-badge&color=7C3AED&logo=github" />
+  <img src="https://img.shields.io/github/followers/DwizSharma?label=Followers&style=for-the-badge&color=0d4f5c&logo=github" />
   &nbsp;
-  <img src="https://img.shields.io/github/stars/DwizSharma?label=Stars+Earned&style=for-the-badge&color=7C3AED&logo=star" />
+  <img src="https://img.shields.io/github/stars/DwizSharma?label=Stars+Earned&style=for-the-badge&color=0d4f5c&logo=star" />
   &nbsp;
-  <img src="https://img.shields.io/badge/PRs%20Merged-10%2B-7C3AED?style=for-the-badge&logo=git" />
+  <img src="https://img.shields.io/badge/Projects-12-73e2cd?style=for-the-badge&logo=rocket" />
 </div>
 
 ---
 
 ## ⚡ About Me
 
-<img align="right" alt="Coding" width="360" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
+<img align="right" alt="Ocean 3D Globe" width="340" src="https://raw.githubusercontent.com/DwizSharma/Ocean-temperature-model/main/public/earth-show.png"/>
 
-```java
-public class DwizVratSharma {
+```python
+class DwizVratSharma:
+    name     = "Dwiz Vrat Sharma"
+    role     = "Software Developer"
+    college  = "NIET, Greater Noida · B.Tech CSE"
 
-    final String name     = "Dwiz Vrat Sharma";
-    final String role     = "Full Stack Java Developer";
-    final String college  = "NIET, Greater Noida";
-    final String degree   = "B.Tech CSE (Final Year)";
+    currently_building = [
+        "🌊 OceanEmbed  — AI + 3D ocean temperature model",
+        "   ↳ ConvLSTM · FastAPI · React · Three.js",
+        "   ↳ Click any ocean point → 23-depth profile",
+        "🔒 ContractGuard — API drift detection sandbox",
+        "🤖 Jarvis Linux  — offline voice desktop assistant",
+    ]
 
-    String[] currentlyBuilding = {
-        "💰 Clarify — Personal Finance Manager",
-        "   ↳ 10+ PRs merged, production-ready",
-        "   ↳ Spring Boot · MySQL · Thymeleaf",
-        "🔧 Real-world REST APIs",
-    };
+    stack = {
+        "languages" : ["Java", "Python", "JavaScript", "C"],
+        "backend"   : ["Spring Boot", "FastAPI", "Node.js", "Express"],
+        "frontend"  : ["React", "Three.js", "Thymeleaf", "Next.js"],
+        "data / AI" : ["TensorFlow", "ConvLSTM", "NetCDF", "LangGraph"],
+        "databases" : ["MySQL", "PostgreSQL", "MongoDB", "Redis"],
+        "devops"    : ["Docker", "GitHub Actions", "Linux"],
+    }
 
-    String[] learning = {
-        "☁️  Docker & Cloud Deployment",
-        "🔐 OAuth2 & JWT Auth",
-        "📐 System Design & DSA",
-        "🧪 Spring Boot Testing",
-    };
-
-    String[] strengths = {
-        "Clean architecture",
-        "Security-first thinking",
-        "Ship fast, iterate faster",
-    };
-
-    String funFact =
-        "I debug at midnight 🌙 and ship at 3am ☕";
-}
+    fun_fact = "I debug at midnight 🌙 and ship at 3 AM ☕"
 ```
 
 <br clear="right"/>
 
 ---
 
-## 🌐 Find Me Online
+## 🌊 Featured Project — OceanEmbed
 
 <div align="center">
 
-[![Gmail](https://img.shields.io/badge/Gmail-sharmadwiz00%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sharmadwiz00@gmail.com)
-&nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-DwizSharma-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DwizSharma)
-&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dwiz-vrat-sharma-345761369/)
+```
+  🌍  Click any ocean point on the 3D globe
+           │
+           ▼
+  📡  { latitude, longitude, month }  ──▶  FastAPI backend
+                                               │
+                              ┌────────────────┘
+                              ▼
+                   ConvLSTM model inference
+                   over global satellite grids
+                   (SST + SSH/SLA, 1° resolution)
+                              │
+                              ▼
+                   23-depth temperature profile
+                   returned to the React frontend
+                              │
+                              ▼
+  📊  Interactive depth chart  +  🗺️  3D rotating Earth
+```
+
+</div>
+
+<div align="center">
+  <a href="https://github.com/DwizSharma/Ocean-temperature-model">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=DwizSharma&repo=Ocean-temperature-model&theme=tokyonight&hide_border=true&border_radius=12&icon_color=73e2cd&title_color=73e2cd" />
+  </a>
+</div>
+
+<br/>
+
+<div align="center">
+
+| Layer | Technology | What it does |
+|:---:|:---|:---|
+| 🎨 **Frontend** | React · Three.js · WebGL | Drag-to-rotate 3D Earth; click → depth chart |
+| ⚙️ **Backend** | FastAPI · Python | Loads satellite grids, runs inference, serves profile |
+| 🧠 **Model** | TensorFlow · ConvLSTM | Predicts 23-depth subsurface temps from surface data |
+| 📡 **Data** | NetCDF · NASA PODAAC | Global 1° SST + SSH/SLA satellite grids |
+| 🗜️ **3D Asset** | Three.js · DRACO · GLTF | Compressed ocean mesh with custom texture |
+
+</div>
+
+> **Prototype note:** trained on Jan–Mar 2020 data, supports March 2020 prediction. Full training pipeline is included.
+
+---
+
+## 🚀 All Projects
+
+<div align="center">
+
+| # | Project | Stack | Highlight |
+|:---:|:---|:---|:---|
+| 🌊 | **[OceanEmbed](https://github.com/DwizSharma/Ocean-temperature-model)** | React · Three.js · FastAPI · ConvLSTM | AI + 3D ocean temperature explorer |
+| ⚡ | **[DevFlow](https://github.com/DwizSharma/devflow)** | Python · CLI · HTTP | Developer command center — triage, focus, workspace save |
+| 🎮 | **[ArenaX](https://github.com/DwizSharma/arena-x-multiplayer)** | Next.js · Spring Boot · WebSockets | Live multiplayer quiz arena |
+| 🤖 | **[Agentic Issue Triage](https://github.com/DwizSharma/agentic-issue-triage)** | Python · LangGraph · FastAPI · Qdrant | AI bug-report investigation pipeline |
+| 💰 | **[Clarify](https://github.com/DwizSharma/Clarify_personal_finance_AJP)** | Spring Boot · MySQL · Thymeleaf | Full-stack personal finance manager |
+| 🔗 | **[URL Shortener](https://github.com/DwizSharma/CodeAlpha_URL_Shortner)** | Node.js · Express · MongoDB | Backend-first link shortener API |
+| ☕ | **[CodeAlpha Java Suite](https://github.com/DwizSharma/CodeAlpha)** | Java · OOP · CLI | 4 console apps — grades, trading, hotel, chatbot |
+| 📰 | **[Reddit Lite / Nexus](https://github.com/DwizSharma/web-tech-project)** | PHP · MySQL · PDO | Campus community social feed |
+| 📊 | **[Clarify Finance](https://github.com/DwizSharma/Clarify_personal_finance_AJP)** | Java 17 · Spring Boot 3 · Hibernate | Heatmap · goals · recurring bills · PDF export |
+| 🛡️ | **[ContractGuard](https://github.com/DwizSharma/contractguard)** | Next.js · Spring Boot · FastAPI · Redis | API contract drift sandbox + CI gate |
+| 🎙️ | **[Jarvis Linux](https://github.com/DwizSharma/jarvis-linux)** | Python · Vosk · AT-SPI | Offline voice desktop assistant — Hindi/English |
+| 🏃 | **[Leetcoder Desktop](https://github.com/DwizSharma/Leetcoder)** | Node.js · Puppeteer | Automated solution runner · 2,500+ solutions |
 
 </div>
 
@@ -87,61 +139,41 @@ public class DwizVratSharma {
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 **Backend & Frameworks**
 
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
-![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+
+**Frontend & 3D**
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-005F0F?style=for-the-badge&logo=thymeleaf&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+
+**AI & Data**
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=for-the-badge&logo=langchain&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
 **Databases**
 
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-**Tools & DevOps**
+**DevOps & Tools**
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-
-</div>
-
----
-
-## 🚀 Featured Project — Clarify
-
-<div align="center">
-  <a href="https://github.com/DwizSharma/Clarify_personal_finance_AJP">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=DwizSharma&repo=Clarify_personal_finance_AJP&theme=tokyonight&hide_border=true&border_radius=12&description_lines_count=2" />
-  </a>
-</div>
-
-<br/>
-
-> **Clarify** is a production-ready personal finance manager — built entirely from scratch as a full-stack Java project with 10+ merged pull requests.
-
-<div align="center">
-
-| 🔧 Feature | 💡 Tech |
-|---|---|
-| 🔐 Secure login & password change | Spring Security · BCrypt |
-| 📊 Live dashboard with 6 chart types | Thymeleaf · Vanilla JS |
-| 🧾 Split transactions across categories | Custom JPA queries |
-| 📤 CSV export & import | Java Streams · Apache Commons |
-| 💰 Real-time budget alerts | Spring Events · MySQL |
-| 🏦 Multi-account household tracking | JPA · Hibernate |
-| 🔍 Server-side search & filter | Spring MVC query params |
-| 📄 PDF monthly reports | Apache PDFBox |
-| 🤖 CI/CD pipeline | GitHub Actions |
 
 </div>
 
@@ -150,16 +182,16 @@ public class DwizVratSharma {
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DwizSharma&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&count_private=true&rank_icon=github" width="49%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DwizSharma&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&langs_count=8" width="40%"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=DwizSharma&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&count_private=true&rank_icon=github&icon_color=73e2cd&title_color=73e2cd" width="49%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DwizSharma&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&langs_count=8&title_color=73e2cd" width="40%"/>
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=DwizSharma&theme=tokyonight&hide_border=true&border_radius=12&date_format=M%20j%5B%2C%20Y%5D&ring=A78BFA&fire=A78BFA&currStreakLabel=A78BFA" width="55%"/>
+  <img src="https://streak-stats.demolab.com/?user=DwizSharma&theme=tokyonight&hide_border=true&border_radius=12&date_format=M%20j%5B%2C%20Y%5D&ring=73e2cd&fire=73e2cd&currStreakLabel=73e2cd" width="55%"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DwizSharma&theme=tokyo-night&hide_border=true&border_radius=12&area=true&area_color=A78BFA" width="95%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DwizSharma&theme=tokyo-night&hide_border=true&border_radius=12&area=true&area_color=73e2cd&color=73e2cd&line=73e2cd&point=73e2cd" width="95%"/>
 </div>
 
 ---
@@ -184,20 +216,25 @@ public class DwizVratSharma {
 
 ---
 
-## 📈 Contribution Graph Heatmap
+## 🌐 Find Me Online
 
 <div align="center">
-  <img src="https://ghchart.rshah.org/7C3AED/DwizSharma" alt="DwizSharma's Github chart" width="95%"/>
+
+[![Gmail](https://img.shields.io/badge/Gmail-sharmadwiz00%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sharmadwiz00@gmail.com)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-DwizSharma-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DwizSharma)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dwiz-vrat-sharma-345761369/)
+&nbsp;
+[![Portfolio](https://img.shields.io/badge/Portfolio-dwiz--portfolio.vercel.app-73e2cd?style=for-the-badge&logo=vercel&logoColor=white)](https://dwiz-portfolio.vercel.app)
+
 </div>
 
 ---
 
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=130&section=footer&animation=fadeIn"/>
-  
-  <i>"First, solve the problem. Then, write the code." — John Johnson</i>
-  
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d4f5c,50:0a2a3a,100:020d18&height=140&section=footer&animation=fadeIn"/>
+  <i>"The ocean's depth is not a mystery — it's a data problem."</i>
   <br/><br/>
-  
   <b>⭐ Star my repos if you find them useful — it means a lot!</b>
 </div>
